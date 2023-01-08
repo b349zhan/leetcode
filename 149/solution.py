@@ -1,5 +1,8 @@
 from typing import List
 def maxPoints(points: List[List[int]]) -> int:
+    # Hashmap
+    # Time O(n^2)
+    # Space O(n)
     if len(points)<=2: return len(points)
     ks = {}
     maxCount = -1
