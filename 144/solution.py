@@ -1,6 +1,9 @@
 from typing import List, Optional
 from ADTs.TreeNode import TreeNode
 def preorderTraversal(root: Optional[TreeNode]) -> List[int]:
+    # Tree
+    # Time O(n)
+    # Space O(log(n))
     result = []
     stack = [root]
     while stack:
